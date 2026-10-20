@@ -1,0 +1,11 @@
+Request body: 
+{"title": "Test", "author": "Me",  
+Response: 
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Tue, 20 Oct 2026 11:31:48 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK"}

@@ -1,0 +1,14 @@
+Request: POST http://localhost:3000/api/books
+Body:
+{"title": "Test", "author": "Me", "year": 1999.5}
+
+
+Response:
+HTTP/1.1 201 Created
+Content-Type: application/json
+Date: Tue, 20 Oct 2026 11:34:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK","id":49}
